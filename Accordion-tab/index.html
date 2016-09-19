@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Accordion Tab</title>
+
+    <link rel="stylesheet" href="jquery-ui.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tab1">Options</a></li>
+        <li><a href="#tab2">See Effect</a></li>
+      </ul>
+
+
+      <div id="tab1" class="tab">
+        <div id="accordion">
+          <h3>Choose an Effect</h3>
+          <div>
+            <ul id="effects">
+              <li id="pulsate">Pulsate</li>
+              <li id="bounce">Bounce</li>
+              <li id="fold">Fold</li>
+              <li id="puff">Puff</li>
+              <li id="shake">Shake</li>
+            </ul>
+          </div>
+
+          <h3>Choose a Shape</h3>
+          <div>
+            <ul id="shapes">
+              <li id="circle">Circle</li>
+              <li id="square">Square</li>
+              <li id="triangle">Triangle</li>
+              <li id="pacman">Pacman</li>
+            </ul>
+          </div>
+
+          <h3>Choose a Color</h3>
+          <div>
+            <ul id="colors">
+              <li id="red">Red</li>
+              <li id="gold">Gold</li>
+              <li id="blue">Blue</li>
+              <li id="purple">Purple</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab2" class="tab">
+        <div id="target"></div>
+        <button id="trigger" type="button" name="button">Trigger Effect</button>
+      </div>
+    </div>
+
+  </body>
+</html>

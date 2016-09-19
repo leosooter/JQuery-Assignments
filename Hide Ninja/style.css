@@ -1,0 +1,12 @@
+body{
+  width: 450px;
+}
+div{
+  display: inline-block;
+  height: 102px;
+  width: 98px;
+}
+button{
+  color: white;
+  background-color: green;
+}
